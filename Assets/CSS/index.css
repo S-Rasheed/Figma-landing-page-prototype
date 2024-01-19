@@ -27,7 +27,7 @@
     --input-bg-color: #F6F5F5;
     --input-bg-color-type-two: #464646;
     --input-bg-color-type-three: #2A2929;
-    --size-pictureframe: 40px;
+    --size-pictureframe: clamp(40px, 2vw, 80px);
 }
 
 *{
@@ -277,6 +277,26 @@ body{
     max-width:100%;
     height:auto;
   }
+
+  .circles-gallery {
+    position: relative;
+    height: var(--size-pictureframe);
+    margin-left: calc(var(--size-pictureframe) * 0.5);
+  }
+  .circles-gallery > * {
+    position: relative;
+    display: inline-block;
+    margin-left: calc(var(--size-pictureframe) * -0.3);
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    z-index: 10;
+  }
+
+  .work_section_clients_count{
+    margin-left: 1em;
+    font-weight: 600;
+  }
 /*--our-work-section --*/
 
 @media(max-width: 767px){
@@ -384,6 +404,23 @@ body{
     }
   }
   /*--hero section animation block --*/
+
+  /*-- our work section --*/
+  .circles-gallery {
+    position: relative;
+    height: var(--size-pictureframe);
+    margin-left: calc(var(--size-pictureframe) * 0.5);
+  }
+  .circles-gallery > * {
+    position: relative;
+    display: inline-block;
+    margin-left: calc(var(--size-pictureframe) * -0.3);
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    z-index: 10;
+  }
+  /*-- our work section --*/
 }
 
 @media(max-width: 991px) {
