@@ -144,7 +144,7 @@ body{
 
 .hero-text-section h1{
   color:var(--light-text-color);
-  font-size: clamp(4em, 6vw, 8em);
+  font-size: clamp(3em, 6vw, 8em);
   font-weight:700;
   line-height: 1.4;
 }
