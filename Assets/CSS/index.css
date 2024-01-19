@@ -148,7 +148,7 @@ body{
   color:var(--light-text-color);
   font-size: clamp(3em, 7vw, 8em);
   font-weight:700;
-  line-height: 1.4;
+  line-height: 1.1;
 }
 
 .featured-highlighted-text-block{
@@ -388,7 +388,7 @@ body{
 
 @media(max-width: 991px) {
   .hero-text-section h1{
-    line-height: 1.4;
+    line-height: 1.2;
   }
 }
 
