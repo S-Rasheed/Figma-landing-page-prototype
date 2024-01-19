@@ -63,7 +63,6 @@ body{
     }
 
     .nav-link-dp{
-        font-family:'Inter', sans-serif;
         color:var(--light-text-color);
     }
 
@@ -73,7 +72,7 @@ body{
     }
 
     .btn-nav-link-dp{
-        font-family:'Inter', sans-serif;
+        border-radius: 5px !important;
         background-color:var(--tertiary-color);
     }
 
@@ -88,20 +87,19 @@ body{
     }
 
     .mobile-nav-link{
-        font-family:'Inter', sans-serif;
         color:var(--dark-text-color);
         font-weight:700;
     }
 
     .mobile-nav-link:hover{
-        font-family:'Inter', sans-serif;
+
         color:var(--tertiary-color);
         font-weight:500;
     }
 
     .mb-nav-block-btn{
         width:100% !important;
-        font-family:'Inter', sans-serif;
+
         background-color:var(--tertiary-color);
         color:var(--light-text-color);
         font-weight:500;
@@ -111,6 +109,31 @@ body{
     .mb-nav-block-btn:hover{
         background-color:var(--tertiary-color) !important;
         transition: 0.2s ease;
+    }
+
+    .mb-navbar-nav{
+      position:relative;
+    }
+
+    #nav-toggler-mobile-close-btn{
+      font-size: clamp(2em, 4vw, 4em);
+      position: absolute;
+      top:3vh;
+      right:3vh;
+      border:3px solid red;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+      background-image: url(../Images/custom-nav-toggler-light.png);
+    }
+
+    .navbar-toggler,
+    .navbar-toggler-icon:focus,
+    .navbar-toggler:active,
+    .navbar-toggler:focus {
+        border: none;
+        box-shadow: none;
+        outline: none
     }
 /*-- navigation --*/
 

@@ -14,16 +14,16 @@
     
     <!-- Page navigation --> 
         <nav id="page-navbar" class="navbar navbar-light  py-0">
-            <div class="container-md py-3">
+            <div class="container-lg py-3">
                 <a class="navbar-brand" href="#">
                     <span class="header-logo-span">Mash</span> 
                     <span class="header-logo-span">Cloud</span>
                     <span class="header-logo-span"> <div class="feature-dot"></div></span> 
                 </a>
-                <button class="navbar-toggler d-md-none" id="nav-toggler-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <button class="navbar-toggler border-0 outline-0 d-lg-none" id="nav-toggler-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="navbar-nav d-none d-md-flex flex-row">
+                <ul class="navbar-nav d-none d-lg-flex flex-row">
                     <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> Home </a></li>
                     <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> About </a></li>
                     <li class="nav-item mx-4"><a class="nav-link nav-link-dp" href=""> Services </a></li>
@@ -37,16 +37,19 @@
                     </li>
 
                 </ul>
-                <div class="d-md-none offcanvas offcanvas-end" style="top:58px;" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-body p-0 d-flex justify-content-center align-items-center">
-                        <ul class="navbar-nav p-0 d-flex justify-content-center align-items-center w-100">
+                <div class="d-lg-none offcanvas offcanvas-end"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-body mb-navbar-nav p-0 d-flex justify-content-center align-items-center">
+                        <button class="navbar-toggler d-lg-none border-0 outline-0" id="nav-toggler-mobile-close-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <div> <i class="bi bi-x-lg"></i> </div>
+                        </button> 
+                        <ul class="navbar-nav  p-0 d-flex justify-content-center align-items-center w-100">
                             <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> Home </a></li>
                             <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> About </a></li>
                             <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> Services </a></li>
                             <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href="Contact"> Work </a></li>
                             <li class="nav-item m-0 my-2 px-4"><a class="nav-link mobile-nav-link" href=""> Team </a></li>
                             <li class="nav-item m-0 my-2 px-4 d-block w-100"> 
-                                <button class="btn btn-secondary btn-lg border-0 rounded-0 p-2 mb-nav-block-btn" type="button">Let's connect</button>
+                                <a href="#" class="text-decoration-none"> <button class="btn btn-secondary btn-lg border-0 rounded-0 p-2 mb-nav-block-btn" type="button">Let's connect</button> </a>
                             </li>
                         </ul>
                     </div>
