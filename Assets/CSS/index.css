@@ -27,7 +27,7 @@
     --input-bg-color: #F6F5F5;
     --input-bg-color-type-two: #464646;
     --input-bg-color-type-three: #2A2929;
-    --size-pictureframe: clamp(40px, 2vw, 80px);
+    --size-pictureframe: clamp(35px, 2vw, 80px);
 }
 
 *{
@@ -294,6 +294,7 @@ body{
   }
 
   .work_section_clients_count{
+    flex-shrink: 0 !important;
     margin-left: 1em;
     font-weight: 600;
   }
