@@ -354,6 +354,139 @@ body{
 }
 /*-- spacer-section --*/
 
+/*-- first-text-block-section --*/
+.first-text-block{
+  font-family:'Inter', sans-serif;
+  background-color: var(--light-text-color);
+}
+
+.first-text-block .in_div_container{
+  border-bottom: 1px solid #717171;
+}
+
+.first-text-block .first-block{
+  font-family:'Inter', sans-serif;
+  font-weight: 700;
+  font-size: clamp(4em, 2vw, 5em);
+  color: var(--dark-text-color);
+}
+
+.first-text-block .second-block{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: clamp(1.2em, 2vw, 2.4em);
+  color: var(--dark-text-color);
+}
+
+.first-text-block .second-block .p3:last-child{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 0.8em;
+  color: var(--dark-text-color);
+}
+
+.first-text-block .last-row{
+  color: var(--dark-text-color);
+}
+
+.first-text-block .last-row .persona-display{
+  width:100%;
+  height:auto;
+}
+
+.first-text-block .last-row .persona-display .circular_person_badge {
+  width:60px;
+  height:60px;
+  border-radius: 50% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../Images/random-person-3.jpg');
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  flex-shrink: 0 !important;
+}
+
+.persona_name_details{
+  margin-left:15px;
+  color: var(--dark-text-color);
+}
+
+.persona_name_details p:first-of-type, .persona_name_details p:last-of-type{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.persona_name_details p:last-of-type{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.first-text-block .last-row .second-block .p3{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--dark-text-color);
+  position: relative;
+}
+
+.first-text-block .last-row .second-block .p3:after,
+.first-text-block .last-row .second-block .p3:before {
+    display: inline-block;
+    height: 40px;
+    transform: translateY(-10px);
+    width: 30px;
+}
+
+.first-text-block .last-row .second-block .p3:before {
+  content: url('../Images/opening-quote.png') !important;
+  height:40px !important;
+  width: 35px !important;
+}
+
+.first-text-block .last-row .second-block .p3:after {
+  content: url('../Images/closing-quote.png') !important;
+  height:40px !important;
+  width: 35px !important;
+}
+
+.in_div_second_container{
+  font-family: 'Nunito', sans-serif;
+  color: var(--dark-text-color);
+}
+
+.quote-second-block{
+  font-family: 'Nunito', sans-serif;
+}
+
+.quote-second-block p:first-of-type{
+  font-size: clamp(1em, 2vw, 1.5em);
+}
+
+.quote-second-block p:last-of-type{
+  font-weight: 600;
+  font-size: clamp(0.9em, 2vw, 1.1em);
+}
+
+.quote-third-block p:first-of-type{
+  font-size: clamp(1.2em, 2vw, 2em) !important;
+}
+
+.in_div_second_container .row .col-lg-3 p:first-of-type{
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.in_div_second_container .row .col-lg-3 p:last-of-type{
+  font-weight: 700;
+  font-size: 4em;
+}
+
+/*-- first-text-block-section --*/
+
 
 /*-- Custom layout defined in media queries  --*/
 @media(max-width: 767px){
@@ -530,6 +663,120 @@ body{
     border-bottom: 1px solid #717171;
   }
   /*-- spacer section --*/
+
+  /*-- first-text-block-section --*/
+  .first-text-block{
+    font-family:'Inter', sans-serif;
+    background-color: var(--light-text-color);
+  }
+
+  .first-text-block .in_div_container{
+    border-bottom: 1px solid #717171;
+  }
+
+  .first-text-block .first-block{
+    font-weight: 700;
+    font-size: clamp(3em, 2vw, 5em);
+    color: var(--dark-text-color);
+  }
+
+  .first-text-block .second-block{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: clamp(1.2em, 2vw, 2.4em);
+    color: var(--dark-text-color);
+  }
+
+  .first-text-block .second-block .p3:last-child{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: clamp(0.9em, 2vw, 1.8em);
+    color: var(--dark-text-color);
+  }
+
+  .first-text-block .last-row{
+    color: var(--dark-text-color);
+  }
+
+  .first-text-block .last-row .persona-display{
+    width:100%;
+    height:auto;
+  }
+
+  .first-text-block .last-row .persona-display .circular_person_badge {
+    width:60px;
+    height:60px;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/random-person-3.jpg');
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    flex-shrink: 0 !important;
+  }
+
+  .persona_name_details{
+    margin-left:15px;
+    color: var(--dark-text-color);
+  }
+
+  .persona_name_details p:first-of-type, .persona_name_details p:last-of-type{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+  }
+
+  .persona_name_details p:last-of-type{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .first-text-block .last-row .second-block .p3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--dark-text-color);
+    position: relative;
+  }
+
+  .first-text-block .last-row .second-block .p3:after,
+  .first-text-block .last-row .second-block .p3:before {
+      display: inline-block;
+      height: 40px;
+      transform: translateY(-10px);
+      width: 30px;
+  }
+
+  .first-text-block .last-row .second-block .p3:before {
+    content: url('../Images/opening-quote.png') !important;
+    height:40px !important;
+    width: 35px !important;
+  }
+
+  .first-text-block .last-row .second-block .p3:after {
+    content: url('../Images/closing-quote.png') !important;
+    height:40px !important;
+    width: 35px !important;
+  }
+
+  .in_div_second_container{
+    font-family: 'Nunito', sans-serif;
+    color: var(--dark-text-color);
+  }
+
+  .in_div_second_container .row .col-12 p:first-of-type{
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  .in_div_second_container .row .col-12 p:last-of-type{
+    font-weight: 700;
+    font-size: 3em;
+  }
+  /*-- first-text-block-section --*/
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
@@ -584,6 +831,120 @@ body{
     justify-content: center !important;
     transform:translateY(50%);
   }
+
+    /*-- first-text-block-section --*/
+    .first-text-block{
+      font-family:'Inter', sans-serif;
+      background-color: var(--light-text-color);
+    }
+  
+    .first-text-block .in_div_container{
+      border-bottom: 1px solid #717171;
+    }
+  
+    .first-text-block .first-block{
+      font-weight: 700;
+      font-size: clamp(3em, 2vw, 5em);
+      color: var(--dark-text-color);
+    }
+  
+    .first-text-block .second-block{
+      font-family: 'Nunito', sans-serif;
+      font-weight: 500;
+      font-size: clamp(1.2em, 2vw, 2.4em);
+      color: var(--dark-text-color);
+    }
+  
+    .first-text-block .second-block .p3:last-child{
+      font-family: 'Nunito', sans-serif;
+      font-weight: 500;
+      font-size: clamp(0.9em, 2vw, 1.8em);
+      color: var(--dark-text-color);
+    }
+  
+    .first-text-block .last-row{
+      color: var(--dark-text-color);
+    }
+  
+    .first-text-block .last-row .persona-display{
+      width:100%;
+      height:auto;
+    }
+  
+    .first-text-block .last-row .persona-display .circular_person_badge {
+      width:60px;
+      height:60px;
+      border-radius: 50% !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('../Images/random-person-3.jpg');
+      background-repeat: no-repeat;
+      background-size: 60px 60px;
+      flex-shrink: 0 !important;
+    }
+  
+    .persona_name_details{
+      margin-left:15px;
+      color: var(--dark-text-color);
+    }
+  
+    .persona_name_details p:first-of-type, .persona_name_details p:last-of-type{
+      font-family: 'Nunito', sans-serif;
+      font-weight: 900;
+      font-size: 16px;
+    }
+  
+    .persona_name_details p:last-of-type{
+      font-family: 'Nunito', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+    }
+  
+    .first-text-block .last-row .second-block .p3{
+      font-family: 'Nunito', sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      color: var(--dark-text-color);
+      position: relative;
+    }
+  
+    .first-text-block .last-row .second-block .p3:after,
+    .first-text-block .last-row .second-block .p3:before {
+        display: inline-block;
+        height: 40px;
+        transform: translateY(-10px);
+        width: 30px;
+    }
+  
+    .first-text-block .last-row .second-block .p3:before {
+      content: url('../Images/opening-quote.png') !important;
+      height:40px !important;
+      width: 35px !important;
+    }
+  
+    .first-text-block .last-row .second-block .p3:after {
+      content: url('../Images/closing-quote.png') !important;
+      height:40px !important;
+      width: 35px !important;
+    }
+  
+    .in_div_second_container{
+      font-family: 'Nunito', sans-serif;
+      color: var(--dark-text-color);
+    }
+  
+    .in_div_second_container .row .col-12 p:first-of-type{
+      font-size: 1em;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+  
+    .in_div_second_container .row .col-12 p:last-of-type{
+      font-weight: 700;
+      font-size: 3em;
+    }
+    /*-- first-text-block-section --*/
 }
 
 @media(max-width: 991px) {
