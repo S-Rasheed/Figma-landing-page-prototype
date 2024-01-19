@@ -37,7 +37,7 @@
 body{
     font-family:'Inter', sans-serif;
     background-color: var(--primary-color);
-   
+    overflow-x: hidden;
 }
 
 /*-- navigation --*/
@@ -487,6 +487,90 @@ body{
 
 /*-- first-text-block-section --*/
 
+/*-- Second-text section--*/
+ .second-text-block{
+  font-family:'Inter', sans-serif;
+}
+
+.second-text-block .featured_heading_text:first-of-type{
+  color: var(--tertiary-color);
+  font-size:clamp(1.4em, 2vw, 2.8em);
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+.second-text-block .featured_heading_text:last-of-type{
+  color: var(--light-text-color);
+  font-weight: 700;
+  width:60%;
+  font-size:clamp(3em, 2vw, 5em);
+}
+
+.core_values_display_card{
+  width:30%;
+  height:auto;
+  margin:2vh 1%;
+  background-color: var(--low-contrast-dark-color);
+  transition:0.3s ease;
+}
+
+.core_values_display_card:hover{
+  background-color: var(--tertiary-color);
+}
+
+.core_values_display_card:hover .text-section h5{
+  color: var(--dark-text-color);
+}
+
+.core_values_display_card:hover .text-section p{
+font-family: 'Nunito', sans-serif;
+color: var(--dark-text-color);
+}
+
+.core_values_display_card_1:hover img {
+content: url('../Images/core_values_icon_1_dark.png'); /* Change the image source as needed */
+}
+
+.core_values_display_card_2:hover img {
+content: url('../Images/core_values_icon_5_dark.png'); /* Change the image source as needed */
+}
+
+.parent-container img {
+transition: transform 0.3s ease; /* Add a transition for a smooth effect */
+}
+
+.core_values_display_card .heading-section{
+width:100%;
+height:auto;
+margin-bottom: 4vh;
+}
+
+.responsive_core_values_img{
+width:100px;
+height:100px;
+margin-bottom: calc(5vh + 2vmin);
+}
+
+.core_values_display_card .text-section{
+width:100%;
+height:auto;
+font-family: 'Nunito', sans-serif;
+}
+
+.core_values_display_card .text-section h5{
+  font-size:clamp(1.5em, 2vw, 3em);
+  font-weight: 700;
+  color: var(--light-text-color);
+  margin-bottom: 5vh;
+}
+
+.core_values_display_card .text-section p{
+  font-size:clamp(0.8em, 2vw, 1.5em);
+  font-weight: 400;
+  color: var(--low-light-text-color);
+}
+/*-- Second-text section--*/
+
 
 /*-- Custom layout defined in media queries  --*/
 @media(max-width: 767px){
@@ -777,6 +861,86 @@ body{
     font-size: 3em;
   }
   /*-- first-text-block-section --*/
+
+  /*-- Second-text section--*/
+  .second-text-block{
+    font-family:'Inter', sans-serif;
+  }
+
+  .second-text-block .featured_heading_text:first-of-type{
+    color: var(--tertiary-color);
+    font-size: 1.5em;
+    font-weight: 700;
+    /* letter-spacing: 10px; */
+  }
+
+  .second-text-block .featured_heading_text:last-of-type{
+    color: var(--light-text-color);
+    font-size: 3em;
+    font-weight: 700;
+    width:90%;
+  }
+
+  .core_values_display_card{
+    width:96%;
+    height:auto;
+    margin:2vh 2%;
+    background-color: var(--low-contrast-dark-color);
+    transition:0.3s ease;
+  }
+
+  .core_values_display_card:hover{
+    background-color: var(--tertiary-color);
+ }
+ 
+ .core_values_display_card:hover .text-section h5{
+   color: var(--dark-text-color);
+ }
+ 
+ .core_values_display_card:hover .text-section p{
+   font-family: 'Nunito', sans-serif;
+   color: var(--dark-text-color);
+ }
+ 
+ .core_values_display_card_1:hover img {
+   content: url('../Images/core_values_icon_1_dark.png'); /* Change the image source as needed */
+ }
+ 
+ .core_values_display_card_2:hover img {
+   content: url('../Images/core_values_icon_5_dark.png'); /* Change the image source as needed */
+ }
+ 
+ .parent-container img {
+   transition: transform 0.3s ease; /* Add a transition for a smooth effect */
+ }
+ 
+ .core_values_display_card .heading-section{
+   width:100%;
+   height:30vh;
+ }
+ 
+ .responsive_core_values_img{
+  width:100px;
+  height:100px;
+ }
+ 
+ .core_values_display_card .text-section{
+   width:100%;
+   height:auto;
+ }
+ 
+ .core_values_display_card .text-section h5{
+   font-size: 1.5em;
+   font-weight: 700;
+   color: var(--light-text-color);
+ }
+ 
+ .core_values_display_card .text-section p{
+   font-size: 1em;
+   font-weight: 400;
+   color: var(--low-light-text-color);
+ }
+  /*-- Second-text section--*/
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
@@ -945,12 +1109,176 @@ body{
       font-size: 3em;
     }
     /*-- first-text-block-section --*/
+
+    /*-- Second-text section--*/
+    .second-text-block{
+      font-family:'Inter', sans-serif;
+    }
+
+    .second-text-block .featured_heading_text:first-of-type{
+      color: var(--tertiary-color);
+      font-size: 1.2em;
+      font-weight: 700;
+      /* letter-spacing: 10px; */
+    }
+
+    .second-text-block .featured_heading_text:last-of-type{
+      color: var(--light-text-color);
+      font-size: 3em;
+      font-weight: 700;
+      width:90%;
+    }
+
+    .core_values_display_card{
+      width:28%;
+      height:auto;
+      margin:2vh 2%;
+      background-color: var(--low-contrast-dark-color);
+      transition:0.3s ease;
+    }
+
+    .core_values_display_card:hover{
+      background-color: var(--tertiary-color);
+  }
+  
+  .core_values_display_card:hover .text-section h5{
+    color: var(--dark-text-color);
+  }
+  
+  .core_values_display_card:hover .text-section p{
+    font-family: 'Nunito', sans-serif;
+    color: var(--dark-text-color);
+  }
+  
+  .core_values_display_card_1:hover img {
+    content: url('../Images/core_values_icon_1_dark.png'); /* Change the image source as needed */
+  }
+  
+  .core_values_display_card_2:hover img {
+    content: url('../Images/core_values_icon_5_dark.png'); /* Change the image source as needed */
+  }
+  
+  .parent-container img {
+    transition: transform 0.3s ease; /* Add a transition for a smooth effect */
+  }
+  
+  .core_values_display_card .heading-section{
+    width:100%;
+    height:auto;
+    margin-bottom: 4vh;
+  }
+  
+  .responsive_core_values_img{
+    width:100px;
+    height:100px;
+    margin-bottom: 4vh;
+  }
+  
+  .core_values_display_card .text-section{
+    width:100%;
+    height:auto;
+  }
+  
+  .core_values_display_card .text-section h5{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--light-text-color);
+  }
+  
+  .core_values_display_card .text-section p{
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--low-light-text-color);
+  }
+    /*-- Second-text section--*/
 }
 
 @media(max-width: 991px) {
   .hero-text-section h1{
     line-height: 1.2;
   }
+
+   /*-- Second-text section--*/
+    .second-text-block{
+      font-family:'Inter', sans-serif;
+    }
+
+    .second-text-block .featured_heading_text:first-of-type{
+      color: var(--tertiary-color);
+      font-size: 1.2em;
+      font-weight: 700;
+      /* letter-spacing: 10px; */
+    }
+
+    .second-text-block .featured_heading_text:last-of-type{
+      color: var(--light-text-color);
+      font-size: 3em;
+      font-weight: 700;
+      width:90%;
+    }
+
+    .core_values_display_card{
+      width:28%;
+      height:auto;
+      margin:2vh 2%;
+      background-color: var(--low-contrast-dark-color);
+      transition:0.3s ease;
+    }
+
+    .core_values_display_card:hover{
+      background-color: var(--tertiary-color);
+  }
+  
+  .core_values_display_card:hover .text-section h5{
+    color: var(--dark-text-color);
+  }
+  
+  .core_values_display_card:hover .text-section p{
+    font-family: 'Nunito', sans-serif;
+    color: var(--dark-text-color);
+  }
+  
+  .core_values_display_card_1:hover img {
+    content: url('../Images/core_values_icon_1_dark.png'); /* Change the image source as needed */
+  }
+  
+  .core_values_display_card_2:hover img {
+    content: url('../Images/core_values_icon_5_dark.png'); /* Change the image source as needed */
+  }
+  
+  .parent-container img {
+    transition: transform 0.3s ease; /* Add a transition for a smooth effect */
+  }
+  
+  .core_values_display_card .heading-section{
+    width:100%;
+    height:auto;
+    margin-bottom: 4vh;
+  }
+  
+  .responsive_core_values_img{
+    width:100px;
+    height:100px;
+    margin-bottom: 4vh;
+  }
+  
+  .core_values_display_card .text-section{
+    width:100%;
+    height:auto;
+  }
+  
+  .core_values_display_card .text-section h5{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--light-text-color);
+  }
+  
+  .core_values_display_card .text-section p{
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--low-light-text-color);
+  }
+    /*-- Second-text section--*/
 }
 
 @media (min-width: 1400px) {
