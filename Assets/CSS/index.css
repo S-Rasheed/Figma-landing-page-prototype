@@ -739,6 +739,10 @@ font-family: 'Nunito', sans-serif;
   padding-top:1vh;
 }
 
+.custom-feature-testimonials-text{
+  font-size: clamp(1.6em, 2vw, 2.8em) !important;
+}
+
 .feature-testimonials-text-name{
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
