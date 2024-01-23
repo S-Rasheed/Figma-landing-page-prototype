@@ -38,6 +38,7 @@ body{
     font-family:'Inter', sans-serif;
     background-color: var(--primary-color);
     overflow-x: hidden;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
 /*-- navigation --*/
