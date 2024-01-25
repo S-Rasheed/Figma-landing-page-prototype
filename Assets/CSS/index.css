@@ -368,7 +368,7 @@ body{
 .first-text-block .first-block{
   font-family:'Inter', sans-serif;
   font-weight: 700;
-  font-size: clamp(3em, 2vw, 5em);
+  font-size: clamp(2em, 2vw, 5em);
   color: var(--dark-text-color);
 }
 
@@ -1118,7 +1118,7 @@ font-family: 'Nunito', sans-serif;
 
   .first-text-block .first-block{
     font-weight: 700;
-    font-size: clamp(3em, 2vw, 5em);
+    font-size: clamp(2em, 2vw, 5em);
     color: var(--dark-text-color);
   }
 
@@ -1772,7 +1772,7 @@ font-family: 'Nunito', sans-serif;
   
     .first-text-block .first-block{
       font-weight: 700;
-      font-size: clamp(3em, 2vw, 5em);
+      font-size: clamp(2em, 2vw, 5em);
       color: var(--dark-text-color);
     }
   
