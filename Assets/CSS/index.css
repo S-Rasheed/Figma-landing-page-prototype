@@ -19,7 +19,8 @@
 :root {
     --primary-color: #131212;
     --secondary-color: #ffffff;
-    --tertiary-color: #ff760a;
+    --tertiary-color: #ffD700;
+    --old-tertiary-color: #ff760a;
     --dark-text-color: #000000;
     --light-text-color: #ffffff;
     --low-light-text-color: #d0d0d0;
