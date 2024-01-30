@@ -171,7 +171,8 @@ body{
   height:220px !important;
   position:absolute;
   top:-40px;
-  right:20px;
+  right: 20px ; 
+  
 }
 
 /*-- hero section animation block --*/
@@ -944,7 +945,7 @@ font-family: 'Nunito', sans-serif;
     height:100px !important;
     position:absolute;
     top:-80px;
-    right:20px;
+    right:20%;
   }
   
   /*-- hero section animation block --*/
@@ -2284,6 +2285,8 @@ font-family: 'Nunito', sans-serif;
 }
 
 @media(max-width: 991px) {
+  hero-text-section{opacity: 1 !important}
+
   .hero-text-section h1{
     line-height: 1.2;
   }
