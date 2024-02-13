@@ -167,12 +167,18 @@ body{
 }
 
 .hero-section-animation-block{
+  /* width:220px !important;
+  height:220px !important;
+  position:absolute;
+  top:-40px;
+  right:50% ; 
+  transform: translateX(50%); */
+
   width:220px !important;
   height:220px !important;
   position:absolute;
   top:-40px;
   right: 20px ; 
-  
 }
 
 /*-- hero section animation block --*/
