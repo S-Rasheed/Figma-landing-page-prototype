@@ -796,6 +796,7 @@ font-family: 'Nunito', sans-serif;
   background-color: var(--light-text-color);
   font-family:'Inter', sans-serif;
   overflow:hidden !important;
+  margin-top:-150px !important;
 }
 
 .eighth-text-block .featured_heading_text:first-of-type{
@@ -1564,6 +1565,7 @@ font-family: 'Nunito', sans-serif;
   background-color: var(--light-text-color);
   font-family:'Inter', sans-serif;
   overflow:hidden !important;
+  margin-top:-250px !important;
 }
 
 .eighth-text-block .featured_heading_text:first-of-type{
